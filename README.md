@@ -78,20 +78,24 @@ def train_model(model, train_loader, num_epochs=3):
 ## OUTPUT
 ### Training Loss per Epoch
 
-Include the Training Loss per epoch
+![Screenshot 2025-03-22 161843](https://github.com/user-attachments/assets/ea7db220-6dd5-4a3b-90f0-6d3350ca8b28)
+
 
 ### Confusion Matrix
 
-Include confusion matrix here
+![Screenshot 2025-03-22 161911](https://github.com/user-attachments/assets/8f698eb5-211e-4845-8eaf-c78a639d7e80)
+
 
 ### Classification Report
 
-Include Classification Report here
+![Screenshot 2025-03-22 161927](https://github.com/user-attachments/assets/ccc6b5d9-4c47-4d35-98a1-d141f4c2ca5e)
+
 
 
 ### New Sample Data Prediction
 
-Include your sample input and output 
+![Screenshot 2025-03-22 161936](https://github.com/user-attachments/assets/51ba3c2a-f101-485a-bb16-ab7b2b745963)
+
 
 ## RESULT
-Include your result here.
+Thus, We have developed a convolutional deep neural network for image classification to verify the response for new images.
