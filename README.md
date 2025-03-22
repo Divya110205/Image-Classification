@@ -6,7 +6,7 @@ To Develop a convolutional deep neural network for image classification and to v
 
 ## Problem Statement and Dataset
 
-The goal of this project is to develop a Convolutional Neural Network (CNN) for image classification using the MNIST dataset. The MNIST dataset contains handwritten digit images (0-9), and the model aims to classify them correctly. The challenge is to achieve high accuracy while maintaining efficiency.
+The goal of this project is to develop a Convolutional Neural Network (CNN) for image classification using the FashionMNIST dataset. The FashionMNIST dataset contains grayscale images of 10 different clothing categories (e.g., T-shirt, trousers, dress, etc.), and the model aims to classify them correctly. The challenge is to achieve high accuracy while ensuring computational efficiency.
 
 ## Neural Network Model
 
@@ -15,26 +15,26 @@ The goal of this project is to develop a Convolutional Neural Network (CNN) for 
 
 ## DESIGN STEPS
 
-#### STEP 1: Problem Statement
-Define the objective of classifying handwritten digits (0-9) using a Convolutional Neural Network (CNN).
+### STEP 1: Problem Statement
+Define the goal of classifying fashion apparel items into 10 categories using a CNN. Ensure high accuracy while maintaining efficiency.
 
-#### STEP 2:Dataset Collection
-Use the MNIST dataset, which contains 60,000 training images and 10,000 test images of handwritten digits.
+### STEP 2: Dataset Collection
+Use the FashionMNIST dataset, which contains 60,000 training and 10,000 test images of clothing items. Each image is 28×28 grayscale and labeled with one of 10 classes.
 
-#### STEP 3: Data Preprocessing
-Convert images to tensors, normalize pixel values, and create DataLoaders for batch processing.
+### STEP 3: Data Preprocessing
+Convert images to tensors and normalize pixel values to [0,1]. Use DataLoaders for efficient batch processing during training and testing.
 
-#### STEP 4:Model Architecture
-Design a CNN with convolutional layers, activation functions, pooling layers, and fully connected layers.
+### STEP 4: Model Architecture
+Design a CNN with convolutional layers for feature extraction, ReLU activation, pooling layers for downsampling, and fully connected layers for classification.
 
-#### STEP 5:Model Training
-Train the model using a suitable loss function (CrossEntropyLoss) and optimizer (Adam) for multiple epochs.
+### STEP 5: Model Training
+Train the CNN using CrossEntropyLoss and Adam optimizer for multiple epochs. Monitor accuracy and loss to ensure proper learning.
 
-#### STEP 6:Model Evaluation
-Test the model on unseen data, compute accuracy, and analyze results using a confusion matrix and classification report.
+### STEP 6: Model Evaluation
+Test the model on unseen FashionMNIST data, compute performance metrics, and analyze using a confusion matrix.
 
-#### STEP 7: Model Deployment & Visualization
-Save the trained model, visualize predictions, and integrate it into an application if needed.
+### STEP 7: Model Deployment & Visualization
+Save the trained model for future use and visualize predictions on sample test images. Optionally, integrate into an application for real-world use.
 
 
 ## PROGRAM
